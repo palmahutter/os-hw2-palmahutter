@@ -92,4 +92,6 @@ int main(int argc, char ** argv)
     //      Child. pid: 4565 ppid: 4564
     //      Parent. pid: 4564 ppid: 3329
         printf("Parent: %d ppid: %d\n", getpid(), getppid());
+  
+        return 0;
 }
